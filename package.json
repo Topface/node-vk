@@ -1,8 +1,8 @@
 {
     "name": "vk",
-    "version": "0.1",
+    "version": "0.1.0",
     "description": "Vkontakte module for node.js",
-    "keywords": ["vk", "vkontakte", "social"],
+    "keywords": ["vk", "vkontakte", "social", "api"],
     "author": "Ian Babrou <ibobrik@gmail.com>",
     "dependencies": {
 
@@ -10,8 +10,5 @@
     "devDependencies": {
 
     },
-    "main": "index",
-    "engines": {
-        "node": "0.4.x"
-    }
+    "main": "index"
 }
