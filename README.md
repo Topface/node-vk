@@ -13,6 +13,8 @@ In your modules dir:
 ```
 var VkClient = require("vk").VkClient;
 
+var vk = new VkClient("<your token here>");
+
 vk.api('getProfiles', {uid: 2241140}, function(error, result) {
     console.log("Got args:");
     console.log(arguments);
