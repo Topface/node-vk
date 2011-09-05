@@ -8,7 +8,7 @@ node.js module to work with vk.com and vkontakte.ru api for desktop/mobile appli
 
 ## Usage
 
-```
+```javascript
 var VkClient = require("vk").VkClient;
 
 var vk = new VkClient("<your user's token here>");
