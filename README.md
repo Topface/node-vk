@@ -4,14 +4,14 @@ node.js module to work with vk.com and vkontakte.ru api for desktop/mobile appli
 
 ## Installation
 
-In your modules dir:
-
-`$> git clone git@github.com:Sonetica/node-vk.git vk`
+`npm install vk`
 
 ## Usage
 
-```
+```javascript
 var VkClient = require("vk").VkClient;
+
+var vk = new VkClient("<your user's token here>");
 
 vk.api('getProfiles', {uid: 2241140}, function(error, result) {
     console.log("Got args:");
